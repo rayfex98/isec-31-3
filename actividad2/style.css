@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    background-image: url(https://isec.edu.ar/img/equipamiento/laboratorios/isec-labs-01.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.izq{
+    background-color: whitesmoke;
+    width: 500px;
+    margin: 40px 0 20px;
+    padding: 20px;
+}
+.der{
+    margin: 0 20px 20px;
+}
+button{
+    background-color: rgb(218, 193, 32);
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: none;
+}
